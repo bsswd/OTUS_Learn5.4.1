@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7EF0F516-43F0-1C58-53C0-55A65BE89185}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "OTUS_Learn",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CustomConfig",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "TestModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "MotionTrajectory",
+			"Enabled": true
+		},
+		{
+			"Name": "AsyncLevelLoad",
+			"Enabled": true
+		},
+		{
+			"Name": "ObjectReplication",
+			"Enabled": true
+		}
+	]
+}
