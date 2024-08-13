@@ -54,6 +54,10 @@ class AMainCharacter : public ACharacterBase
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* AttackAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* EquipAction;
+
+	
 protected:
 	//Weapon
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
@@ -61,8 +65,6 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	FName WeaponAttachSocketName;
-
-	
 
 	
 	//Consructor

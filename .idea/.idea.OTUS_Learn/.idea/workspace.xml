@@ -13,7 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/HE/U35NZS5A9W1UXP1E3FF2GW.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/HE/U35NZS5A9W1UXP1E3FF2GW.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "C++ Project.OTUS_Learn.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "CurrentWork",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -926,18 +929,6 @@
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
         <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
       </configuration_72>
-      <configuration_73>
-        <option name="CONFIGURATION" value="" />
-        <option name="PLATFORM" value="" />
-        <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/OTUS_Learn.vcxproj" />
-        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
-        <option name="EXE_PATH" value="$(TargetPath)" />
-        <option name="PROGRAM_PARAMETERS" value="" />
-        <option name="WORKING_DIRECTORY" value="$(ProjectDir)" />
-        <option name="PASS_PARENT_ENVS" value="1" />
-        <option name="USE_EXTERNAL_CONSOLE" value="0" />
-        <option name="TERMINAL_INTERACTION_BEHAVIOR" value="AUTO_DETECT" />
-      </configuration_73>
       <option name="DEFAULT_PROJECT_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/OTUS_Learn.vcxproj" />
       <option name="AUTO_SELECT_PRIORITY" value="10010" />
       <method v="2">
@@ -1888,6 +1879,7 @@
       <workItem from="1723182201823" duration="259000" />
       <workItem from="1723186455998" duration="8696000" />
       <workItem from="1723458212427" duration="1826000" />
+      <workItem from="1723529399066" duration="569000" />
     </task>
     <servers />
   </component>
