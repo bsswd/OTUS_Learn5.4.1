@@ -114,6 +114,7 @@ void AMainCharacter::Look(const FInputActionValue& Value)
 
 void AMainCharacter::StartCrouch()
 {
+	if(!JumpCurrentCount)
 	Crouch();
 }
 
@@ -124,6 +125,7 @@ void AMainCharacter::StopCrouch()
 
 void AMainCharacter::StartSprint()
 {
+	if(!JumpCurrentCount)
 	GetCharacterMovement()->MaxWalkSpeed = 1000.f;
 }
 
