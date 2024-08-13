@@ -23,6 +23,10 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = "Shooting", meta = (AllowPrivateAccess = true))
 	FName ShootStartSocket;
 
+	//Ammo capacity
+	UPROPERTY(EditDefaultsOnly, Category = "AmmoCapacity", meta = (AllowPrivateAccess = true))
+	int AmmoCapacity = 0;
+
 public:
 	AWeaponRanged();
 
