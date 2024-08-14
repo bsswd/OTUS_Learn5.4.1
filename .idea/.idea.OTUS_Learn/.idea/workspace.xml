@@ -13,19 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/SM_SpaceMarine.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/SM_SpaceMarine.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/S_SpaceMarine.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/S_SpaceMarine.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Equip.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Equip.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Weapon/WeaponRanged/BP_AssaultRifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Weapon/WeaponRanged/BP_AssaultRifle.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OTUS_Learn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/OTUS_Learn.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Private/WeaponRanged.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Private/WeaponRanged.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Public/WeaponRanged.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Public/WeaponRanged.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TestModule/Private/TestModule.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TestModule/Public/TestModule.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TestModule/TestModule.Build.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +21,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3ba8841421493fbd35696cd5eedb8e172736a3d3" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/AWORK/UnrealProjects/OTUS_Learn5.4.1/OTUS_Learn.uproject" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/AWORK/UnrealProjects/OTUS_Learn5.4.1/OTUS_Learn.uproject" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -1946,6 +1943,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="HW8&#10;&#10;Fixed bug with weapon instances" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW8&#10;&#10;Fixed bug with weapon instances" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
