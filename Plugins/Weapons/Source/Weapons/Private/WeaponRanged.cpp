@@ -20,6 +20,7 @@ void AWeaponRanged::Tick(float DeltaTime)
 void AWeaponRanged::Attack()
 {
 	Super::Attack();
+	PlayMuzzleEffect();
 	ShootLineTrace();
 }
 
@@ -51,4 +52,11 @@ void AWeaponRanged::PlayImpactEffect(const FVector& ImpactLocation)
 	FTransform ParticleTransform;
 	ParticleTransform.SetLocation(ImpactLocation);
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactParticles, ParticleTransform);
+}
+
+void AWeaponRanged::PlayMuzzleEffect()
+{
+	FTransform ParticleTransform;
+	ParticleTransform.SetLocation(Mesh->GetSocketLocation(ShootStartSocket));
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), MuzzleFireParticles, ParticleTransform);
 }

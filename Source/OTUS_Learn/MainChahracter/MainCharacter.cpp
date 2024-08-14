@@ -137,6 +137,9 @@ void AMainCharacter::StopSprint()
 //Weapon
 void AMainCharacter::EquipDefaultWeapon()
 {
+	if(EquippedWeapon)
+		return;
+	
 	if (!DefaultWeaponClass)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("AMainCharacter::EquipDefaultWeapon(): DefaultWeaponClass is not valid!"));

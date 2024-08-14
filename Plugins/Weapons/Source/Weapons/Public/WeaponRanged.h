@@ -41,5 +41,5 @@ public:
 private:
 	void ShootLineTrace();
 	void PlayImpactEffect(const FVector& ImpactLocation);
-	
+	void PlayMuzzleEffect();
 };

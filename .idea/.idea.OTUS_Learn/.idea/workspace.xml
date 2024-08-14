@@ -12,16 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Private/WeaponMelee.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Private/WeaponThrow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Public/WeaponMelee.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Public/WeaponThrow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/ABP_MainCharacter_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/ABP_MainCharacter_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/ABS_UnarmedWalkRun.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/ABS_UnarmedWalkRun.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/SM_SpaceMarine.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/SM_SpaceMarine.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/S_SpaceMarine.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Models/Chars/SpaceMarine/Mesh/S_SpaceMarine.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Equip.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Equip.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Weapon/WeaponRanged/BP_AssaultRifle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Weapon/WeaponRanged/BP_AssaultRifle.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OTUS_Learn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/OTUS_Learn.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Private/WeaponRanged.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Private/WeaponRanged.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Public/WeaponRanged.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Weapons/Source/Weapons/Public/WeaponRanged.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TestModule/Private/TestModule.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TestModule/Public/TestModule.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TestModule/TestModule.Build.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1886,6 +1890,9 @@
       <workItem from="1723458212427" duration="1826000" />
       <workItem from="1723529399066" duration="569000" />
       <workItem from="1723530755218" duration="4729000" />
+      <workItem from="1723615187864" duration="229000" />
+      <workItem from="1723621838730" duration="9000" />
+      <workItem from="1723625947857" duration="2967000" />
     </task>
     <servers />
   </component>
