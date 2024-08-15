@@ -12,7 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Plugins/Health/Source/Health/Private/HealthComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Health/Source/Health/Public/HealthComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Weapon/BP_TestDamageActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Weapon/BP_TestDamageActor.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +38,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -1892,6 +1896,7 @@
       <workItem from="1723705761111" duration="412000" />
       <workItem from="1723706335660" duration="396000" />
       <workItem from="1723706908679" duration="62000" />
+      <workItem from="1723707052380" duration="902000" />
     </task>
     <servers />
   </component>
