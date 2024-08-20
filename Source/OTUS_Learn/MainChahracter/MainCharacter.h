@@ -7,6 +7,7 @@
 #include "Logging/LogMacros.h"
 #include "OTUS_Learn/Core/CharacterBase.h"
 #include "../../../Plugins/Weapons/Source/Weapons/Public/WeaponBase.h"
+#include "../../../Plugins/Health/Source/Health/Public/HealthComponent.h"
 #include "MainCharacter.generated.h"
 
 
@@ -15,6 +16,7 @@ class UCameraComponent;
 class UInputMappingContext;
 class UInputAction;
 class AWeaponBase;
+class UHealthComponent;
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
@@ -56,6 +58,10 @@ class AMainCharacter : public ACharacterBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* EquipAction;
+
+	//Health Component
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Health, meta = (AllowPrivateAccess = "true"))
+	UHealthComponent* HealthComponent;
 
 	
 protected:

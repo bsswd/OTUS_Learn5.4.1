@@ -12,11 +12,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Plugins/Health/Source/Health/Private/HealthComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Health/Source/Health/Public/HealthComponent.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/ABP_MainCharacter_Base.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/ABS_UnarmedWalkRun.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Firing_Rifle_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Firing_Rifle__1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Jump_Loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/crouching_turn_90_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/crouching_turn_90_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/death_crouching_headshot_front.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/death_from_back_headshot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/death_from_front_headshot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/death_from_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/death_from_the_back.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/death_from_the_front.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/idle_aiming.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/idle_crouching.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/idle_crouching_aiming.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/jump_down.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/jump_loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/jump_up.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_backward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_backward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_backward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_forward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_forward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_forward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/run_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_backward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_backward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_backward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_forward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_forward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_forward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/sprint_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/turn_90_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/turn_90_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_backward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_backward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_backward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_backward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_backward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_backward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_forward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_forward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_forward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_crouching_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_forward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_forward_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_forward_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Pro_Rifle_Pack/walk_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Aim_To_Down.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Crouch_Walk.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Kneel_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Kneel_To_Stand.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Rifle_Stand_To_Kneel.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/TwoHandArmed/Walk_With_Rifle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Crouch_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Crouch_To_Standing_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Crouched_Walking.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Falling_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Falling_To_Landing.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Jumping.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Jumping_Up.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Running.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Standing_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Animations/Unarmed/Walking.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Weapon/BP_TestDamageActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Weapon/BP_TestDamageActor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Health/Private/HealthComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Health/Private/HealthComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/OTUS_Learn.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/OTUS_Learn.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1897,6 +1970,10 @@
       <workItem from="1723706335660" duration="396000" />
       <workItem from="1723706908679" duration="62000" />
       <workItem from="1723707052380" duration="902000" />
+      <workItem from="1723782039574" duration="148000" />
+      <workItem from="1723787281758" duration="258000" />
+      <workItem from="1724129191294" duration="571000" />
+      <workItem from="1724137185153" duration="808000" />
     </task>
     <servers />
   </component>
