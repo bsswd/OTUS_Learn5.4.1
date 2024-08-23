@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "Health.h"
+#include "../../../Plugins/Health/Source/Public/Health.h"
 
 #define LOCTEXT_NAMESPACE "FHealthModule"
 

@@ -7,7 +7,7 @@
 #include "Logging/LogMacros.h"
 #include "OTUS_Learn/Core/CharacterBase.h"
 #include "../../../Plugins/Weapons/Source/Weapons/Public/WeaponBase.h"
-#include "../../../Plugins/Health/Source/Health/Public/HealthComponent.h"
+#include "../../../Plugins/Health/Source/Public/HealthComponent.h"
 #include "MainCharacter.generated.h"
 
 
@@ -34,7 +34,7 @@ class AMainCharacter : public ACharacterBase
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
 
-	//Movement and actions
+	//Movement
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputMappingContext* DefaultMappingContext;
 
@@ -53,11 +53,17 @@ class AMainCharacter : public ACharacterBase
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* LookAction;
 
+	//Attack
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* AttackAction;
 
+	//Equip
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* EquipAction;
+
+	//Interact
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	UInputAction* InteractAction;
 
 	//Health Component
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Health, meta = (AllowPrivateAccess = "true"))
@@ -73,7 +79,6 @@ protected:
 	FName WeaponAttachSocketName;
 
 	
-	//Consructor
 public:
 	AMainCharacter();
 
@@ -86,6 +91,9 @@ protected:
 	void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
 	void Attack(const FInputActionValue& Value);
+	void Interact(const FInputActionValue& Value);
+
+	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:

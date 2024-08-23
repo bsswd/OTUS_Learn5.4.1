@@ -11,6 +11,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
 #include "../../../Plugins/Weapons/Source/Weapons/Public/WeaponBase.h"
+#include "OTUS_Learn/Interaction/InteractSphereComponent.h"
 
 
 AMainCharacter::AMainCharacter()
@@ -44,7 +45,6 @@ AMainCharacter::AMainCharacter()
 void AMainCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	//EquipDefaultWeapon();
 }
 
 //Input
@@ -77,6 +77,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 		EnhancedInputComponent->BindAction(AttackAction, ETriggerEvent::Triggered, this, &AMainCharacter::Attack);
 		//Equip
 		EnhancedInputComponent->BindAction(EquipAction, ETriggerEvent::Triggered, this, &AMainCharacter::EquipDefaultWeapon);
+		//Interact
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AMainCharacter::Interact);
 	}
 	else
 	{
@@ -84,7 +86,7 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	}
 }
 
-//Movement and action
+//Movement
 void AMainCharacter::Move(const FInputActionValue& Value)
 {
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -168,4 +170,19 @@ void AMainCharacter::Attack(const FInputActionValue& Value)
 		return;
 	}
 	EquippedWeapon->Attack();	
+}
+
+//Interaction
+void AMainCharacter::Interact(const FInputActionValue& Value)
+{
+	auto InteractComponent = FindComponentByClass<UInteractSphereComponent>();
+	if (!InteractComponent)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("AMainCharacter::Interact() : No interact component"));
+		return;
+	}
+
+	bool bInteracted = InteractComponent->Interact();
+	if (bInteracted)
+		GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("Interact success!")));
 }

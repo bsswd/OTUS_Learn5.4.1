@@ -41,7 +41,7 @@ void UHealthComponent::ReceiveDamage(float Damage)
 		return;
 	}
 
-	Damage = Damage - Damage * ArmorValue;
+	Damage = Damage - Damage * CurrentArmorValue;
 	CurrentHealth = FMath::Max(0.f, (CurrentHealth - Damage));
 	
 	if (Damage > 0)
@@ -68,6 +68,18 @@ bool UHealthComponent::Heal(float HealValue)
 
 	CurrentHealth = FMath::Min(MaxHealth, (CurrentHealth + HealValue));
 	OnHealthChange.Broadcast(CurrentHealth);
+	return true;
+}
+
+bool UHealthComponent::ChangeArmorValue(float ArmorValue)
+{
+	if(ArmorValue<0 && ArmorValue > 1)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("UHealthComponent::ChangeArmorValue: ArmorValue<0 && ArmorValue > 1"));
+		return false;
+	}
+	CurrentArmorValue+=ArmorValue;
+	UE_LOG(LogTemp, Warning, TEXT("Add armor"));
 	return true;
 }
 

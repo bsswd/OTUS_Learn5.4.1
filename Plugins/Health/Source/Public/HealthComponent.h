@@ -41,6 +41,9 @@ public:
 	bool Heal(float HealValue);
 
 	UFUNCTION(BlueprintCallable)
+	bool ChangeArmorValue(float ArmorValue);
+
+	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetCurrentHealth() const { return CurrentHealth; }
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetMaxHealth() const { return MaxHealth; }
@@ -61,8 +64,8 @@ private:
 
 	float CurrentHealth;
 
-	UPROPERTY(EditAnywhere, Category = "Health", meta = (AllowPrivateAccess = "true", ClampMin = 0, ClampMax = 1))
-	float ArmorValue;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Health", meta = (AllowPrivateAccess = "true", ClampMin = 0, ClampMax = 1))
+	float CurrentArmorValue;
 
 	bool bDead = false;
 };
