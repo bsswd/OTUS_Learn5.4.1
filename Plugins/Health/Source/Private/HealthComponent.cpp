@@ -35,7 +35,7 @@ void UHealthComponent::ReceiveDamage(float Damage)
 	if (bDead)
 		return;
 
-	if (Damage < 0)
+	if (Damage <= 0)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("UHealthComponent::ReceiveDamage(): Damage < 0"));
 		return;
@@ -43,10 +43,7 @@ void UHealthComponent::ReceiveDamage(float Damage)
 
 	Damage = Damage - Damage * CurrentArmorValue;
 	CurrentHealth = FMath::Max(0.f, (CurrentHealth - Damage));
-	
-	if (Damage > 0)
-		OnHealthChange.Broadcast(CurrentHealth);
-
+		
 	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("CurrentHealth %f"), CurrentHealth));
 
 	if (FMath::IsNearlyEqual(CurrentHealth, 0.f, 0.01f))

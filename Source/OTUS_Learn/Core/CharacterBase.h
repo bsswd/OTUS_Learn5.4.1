@@ -8,7 +8,6 @@
 #include "CharacterBase.generated.h"
 
 
-
 UCLASS(config = Game)
 
 class ACharacterBase : public ACharacter

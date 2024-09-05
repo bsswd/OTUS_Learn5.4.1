@@ -107,7 +107,7 @@ bool APickupItem::PoisonPickup(AActor* User)
 	if (!HealthComponent)
 		return false;
 	
-	HealthComponent->ReceiveDamage(1000);
+	HealthComponent->ReceiveDamage(HealthComponent->GetCurrentHealth());
 	Destroy();
 	return true;
 }

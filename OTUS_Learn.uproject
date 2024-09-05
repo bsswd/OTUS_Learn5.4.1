@@ -41,6 +41,18 @@
 		{
 			"Name": "Chooser",
 			"Enabled": true
+		},
+		{
+			"Name": "Inventory",
+			"Enabled": true
+		},
+		{
+			"Name": "Health",
+			"Enabled": true
+		},
+		{
+			"Name": "Weapons",
+			"Enabled": true
 		}
 	]
 }

@@ -12,27 +12,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/InteractSphereComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/InteractSphereComponent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/InteractionInterface.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/InteractionInterface.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/PickupItem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/PickupItem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/shelf/Uncommitted_changes_before_Update_at_15_08_2024_14_23_[Changes]/shelved.patch" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Inventory.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Resources/Icon128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Inventory.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/HelperFunctionLibrary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Inventory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/InventoryComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/ItemActor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/ItemUseDefinitions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Widgets/ContainerInventoryWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Widgets/InventoryDragOperation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Widgets/InventorySlotWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Widgets/InventoryWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Widgets/ItemTooltipWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Private/Widgets/SplitterWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Data/InventoryInfo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Data/ItemProperties.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/HelperFunctionLibrary.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Inventory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/InventoryComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemActor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/ItemUseDefinitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Widgets/ContainerInventoryWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Widgets/InventoryDragOperation.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Widgets/InventorySlotWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Widgets/InventoryWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Widgets/ItemTooltipWidget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Inventory/Source/Inventory/Public/Widgets/SplitterWidget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Items/BP_Pickup_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Items/BP_Pickup_Weapon.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Weapon/BP_TestDamageActor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Weapon/BP_TestDamageActor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/P5/EGF29WRWW5OOU2P1GDRMSB.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/2N/VQWAGNTL3W5HYYIKO1BJ7F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/AZ/A7GPT109Y6ZTTJD4A7TXER.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OTUS_Learn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/OTUS_Learn.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Health/Health.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Health.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Health/Private/Health.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Private/Health.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Health/Private/HealthComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Private/HealthComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Health/Public/Health.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Public/Health.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Health/Public/HealthComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Public/HealthComponent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Health/Source/Private/HealthComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Health/Source/Private/HealthComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/Core/CharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Core/CharacterBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/Core/CharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Core/CharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/PickupItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/Interaction/PickupItem.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/MainChahracter/MainCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/OTUS_Learn.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/OTUS_Learn.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3718,6 +3737,29 @@
       <workItem from="1724299583570" duration="3136000" />
       <workItem from="1724304597743" duration="86000" />
       <workItem from="1724378199135" duration="104000" />
+      <workItem from="1724380518949" duration="1015000" />
+      <workItem from="1724381960143" duration="11758000" />
+      <workItem from="1724394138602" duration="98000" />
+      <workItem from="1724394275318" duration="135000" />
+      <workItem from="1724394490561" duration="1364000" />
+      <workItem from="1724395909286" duration="188000" />
+      <workItem from="1724396272382" duration="395000" />
+      <workItem from="1724396881831" duration="617000" />
+      <workItem from="1724397552370" duration="6822000" />
+      <workItem from="1724639337992" duration="4435000" />
+      <workItem from="1724655967874" duration="4011000" />
+      <workItem from="1724727840211" duration="313000" />
+      <workItem from="1724728170447" duration="701000" />
+      <workItem from="1724921581363" duration="600000" />
+      <workItem from="1724998051584" duration="584000" />
+      <workItem from="1724999256183" duration="405000" />
+      <workItem from="1724999855656" duration="284000" />
+      <workItem from="1725001188092" duration="639000" />
+      <workItem from="1725005594762" duration="899000" />
+      <workItem from="1725009665866" duration="609000" />
+      <workItem from="1725096529536" duration="1708000" />
+      <workItem from="1725506974459" duration="153000" />
+      <workItem from="1725507717385" duration="93000" />
     </task>
     <servers />
   </component>

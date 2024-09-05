@@ -8,6 +8,7 @@
 #include "OTUS_Learn/Core/CharacterBase.h"
 #include "../../../Plugins/Weapons/Source/Weapons/Public/WeaponBase.h"
 #include "../../../Plugins/Health/Source/Public/HealthComponent.h"
+#include "../../../Plugins/Inventory/Source/Inventory/Public/InventoryComponent.h"
 #include "MainCharacter.generated.h"
 
 
@@ -17,6 +18,7 @@ class UInputMappingContext;
 class UInputAction;
 class AWeaponBase;
 class UHealthComponent;
+class UInventoryComponent;
 struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
@@ -69,6 +71,9 @@ class AMainCharacter : public ACharacterBase
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Health, meta = (AllowPrivateAccess = "true"))
 	UHealthComponent* HealthComponent;
 
+	//Inventory Component
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Health, meta = (AllowPrivateAccess = "true"))
+	UInventoryComponent* InventoryComponent;
 	
 protected:
 	//Weapon
@@ -78,10 +83,8 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	FName WeaponAttachSocketName;
 
-	
 public:
 	AMainCharacter();
-
 	
 	//Functions
 protected:
@@ -93,7 +96,6 @@ protected:
 	void Attack(const FInputActionValue& Value);
 	void Interact(const FInputActionValue& Value);
 
-	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
@@ -105,7 +107,6 @@ private:
 	//Weapon
 	void EquipDefaultWeapon();
 	TObjectPtr<AWeaponBase> EquippedWeapon;
-
 	
 public:
 	//Camera
