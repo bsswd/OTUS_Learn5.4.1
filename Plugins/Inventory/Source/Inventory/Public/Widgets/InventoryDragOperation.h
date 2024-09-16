@@ -7,9 +7,7 @@
 #include "Blueprint/DragDropOperation.h"
 #include "InventoryDragOperation.generated.h"
 
-
 class UInventoryComponent;
-
 
 UCLASS(Blueprintable, BlueprintType, ClassGroup = "Inventory Widgets")
 class INVENTORY_API UInventoryDragOperation : public UDragDropOperation
@@ -27,4 +25,3 @@ public:
 	UPROPERTY(BlueprintReadOnly, Category = "Inventory Drag Widget")
 	int32 DraggedSlotIndex = -1;
 };
-

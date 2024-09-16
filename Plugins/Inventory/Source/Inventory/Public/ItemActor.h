@@ -31,15 +31,13 @@ protected:
 
 	UFUNCTION(Category = "Item Actor")
 	void OnItemBeginOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, 
-							UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
-							bool bFromSweep, const FHitResult& SweepResult);
+		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	UFUNCTION(Category = "Item Actor")
 	void OnItemEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, 
-							UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+		UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 	
 private:
-	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Item Actor", meta = (AllowPrivateAccess = true))
 	UStaticMeshComponent* ItemMesh;
 	
@@ -56,11 +54,11 @@ private:
 	bool EnableDropEffect = true;
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Item Actor",
-				meta = (ClampMin = "0", EditCondition="EnableDropEffect", AllowPrivateAccess = true))
+		meta = (ClampMin = "0", EditCondition="EnableDropEffect", AllowPrivateAccess = true))
 	float MaxHeightWhenDropping = 75.f;
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Item Actor",
-				meta = (ClampMin = "0", EditCondition="EnableDropEffect", AllowPrivateAccess = true))
+		meta = (ClampMin = "0", EditCondition="EnableDropEffect", AllowPrivateAccess = true))
 	float TimeRequiredForDropEffect = 0.5f;
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Item Actor", meta = (ClampMin = "0", EditCondition = "EnableDropEffect"))
@@ -70,7 +68,6 @@ private:
 	FVector2D RandomDropDistance;
 
 public:
-	
 	UPROPERTY(Replicated, BlueprintReadWrite, Category = "Item Actor", meta = (ExposeOnSpawn = "true"))
 	FItemStruct HeldItem;
 };

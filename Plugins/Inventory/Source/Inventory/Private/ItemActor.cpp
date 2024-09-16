@@ -8,6 +8,7 @@
 #include "HelperFunctionLibrary.h"
 #include "Net/UnrealNetwork.h"
 
+
 AItemActor::AItemActor()
 {
 	PrimaryActorTick.bCanEverTick = false;

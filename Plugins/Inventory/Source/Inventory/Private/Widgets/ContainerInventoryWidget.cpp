@@ -6,6 +6,7 @@
 #include "Components/Button.h"
 #include "Widgets/InventoryDragOperation.h"
 
+
 void UContainerInventoryWidget::NativeConstruct()
 {
 	Super::NativeConstruct();

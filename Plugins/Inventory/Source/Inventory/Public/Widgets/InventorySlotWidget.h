@@ -2,7 +2,6 @@
 
 #pragma once
 
-
 #include "CoreMinimal.h"
 #include "Data/ItemProperties.h"
 #include "Blueprint/UserWidget.h"
@@ -31,7 +30,6 @@ public:
 	void RefreshSlot() const;
 	
 protected:
-	
 	bool CanSlotAcceptItem(const FItemStruct& InItem) const;
 
 	virtual FReply NativeOnPreviewMouseButtonDown(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent) override;

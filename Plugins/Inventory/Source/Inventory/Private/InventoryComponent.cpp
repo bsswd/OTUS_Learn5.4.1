@@ -377,6 +377,20 @@ int32 UInventoryComponent::GetValidSlotForAutoEquip(const EItemCategory& InItemC
 	return -1;
 }
 
+bool UInventoryComponent::GetItemByName(FString ItemName, FItemStruct& OutItem)
+{
+	OutItem.Name = ItemName;
+	int32 FoundIndex = CurrentItems.Find(OutItem);
+
+	if (FoundIndex != INDEX_NONE)
+	{
+		OutItem = CurrentItems[FoundIndex];
+		return true;
+	}
+	else
+		return false;
+}
+
 void UInventoryComponent::AddStartupItems()
 {
 	const bool PreviousAutoEquip = EnableAutoEquip;
@@ -525,8 +539,15 @@ void UInventoryComponent::ApplyEquipmentStats(const FItemStruct& EquipmentItem, 
 	if(RemoveStats)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Removed Stats for item: %s"), *EquipmentItem.Name);
+		if (EquipmentItem.Category == EItemCategory::Weapon)
+			OnWeaponUnequipped.Broadcast(EquipmentItem.Name);
 	}
-	else UE_LOG(LogTemp, Warning, TEXT("Added Stats for item: %s"), *EquipmentItem.Name);
+	else 
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Added Stats for item: %s"), *EquipmentItem.Name);
+		if (EquipmentItem.Category == EItemCategory::Weapon)
+			OnWeaponEquipped.Broadcast(EquipmentItem.Name);
+	}
 }
 
 void UInventoryComponent::Multicast_CallBagClosedDelegate_Implementation(UInventoryComponent* DroppedBag)

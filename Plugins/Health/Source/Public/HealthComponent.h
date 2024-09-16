@@ -7,7 +7,7 @@
 
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnDeath);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnHealthChange, float, CurrentHealth);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnHealthChange, float, CurrentHealth, float, MaxHealth);
 
 
 UCLASS( ClassGroup=(Health), meta=(BlueprintSpawnableComponent) )
@@ -45,8 +45,10 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetCurrentHealth() const { return CurrentHealth; }
+	
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE float GetMaxHealth() const { return MaxHealth; }
+	
 	UFUNCTION(BlueprintCallable)
 	FORCEINLINE bool IsDead() const { return bDead; }
 

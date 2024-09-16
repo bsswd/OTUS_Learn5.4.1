@@ -6,7 +6,7 @@
 #include "InputActionValue.h"
 #include "Logging/LogMacros.h"
 #include "OTUS_Learn/Core/CharacterBase.h"
-#include "../../../Plugins/Weapons/Source/Weapons/Public/WeaponBase.h"
+#include "../../../Plugins/Weapons/Source/Public/WeaponBase.h"
 #include "../../../Plugins/Health/Source/Public/HealthComponent.h"
 #include "../../../Plugins/Inventory/Source/Inventory/Public/InventoryComponent.h"
 #include "MainCharacter.generated.h"

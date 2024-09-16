@@ -10,7 +10,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
-#include "../../../Plugins/Weapons/Source/Weapons/Public/WeaponBase.h"
+#include "../../../Plugins/Weapons/Source/Public/WeaponBase.h"
 #include "OTUS_Learn/Interaction/InteractSphereComponent.h"
 
 
@@ -44,7 +44,7 @@ AMainCharacter::AMainCharacter()
 
 void AMainCharacter::BeginPlay()
 {
-	Super::BeginPlay();
+	Super::BeginPlay();	
 }
 
 //Input

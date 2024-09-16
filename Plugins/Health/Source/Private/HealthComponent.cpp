@@ -5,8 +5,9 @@
 UHealthComponent::UHealthComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
-}
 
+	CurrentHealth = MaxHealth;
+}
 
 void UHealthComponent::BeginPlay()
 {
@@ -14,9 +15,7 @@ void UHealthComponent::BeginPlay()
 
 	if (!GetOwner())
 		return;
-
-	CurrentHealth = MaxHealth;
-
+	
 	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::TakeAnyDamage);
 }
 
@@ -32,19 +31,20 @@ void UHealthComponent::TakeAnyDamage(AActor* DamagedActor, float Damage, const U
 
 void UHealthComponent::ReceiveDamage(float Damage)
 {
-	if (bDead)
+	if (bDead)	// Check Death
 		return;
 
-	if (Damage <= 0)
+	if (Damage < 0)	// Check Damage < 0
 	{
 		UE_LOG(LogTemp, Warning, TEXT("UHealthComponent::ReceiveDamage(): Damage < 0"));
 		return;
 	}
-
-	Damage = Damage - Damage * CurrentArmorValue;
+	
+	Damage = Damage - Damage * CurrentArmorValue;	// Check Armor
 	CurrentHealth = FMath::Max(0.f, (CurrentHealth - Damage));
-		
-	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Yellow, FString::Printf(TEXT("CurrentHealth %f"), CurrentHealth));
+
+	if (Damage > 0)
+		OnHealthChange.Broadcast(CurrentHealth, MaxHealth);
 
 	if (FMath::IsNearlyEqual(CurrentHealth, 0.f, 0.01f))
 	{
@@ -64,7 +64,7 @@ bool UHealthComponent::Heal(float HealValue)
 		return false;
 
 	CurrentHealth = FMath::Min(MaxHealth, (CurrentHealth + HealValue));
-	OnHealthChange.Broadcast(CurrentHealth);
+	OnHealthChange.Broadcast(CurrentHealth, MaxHealth);
 	return true;
 }
 
@@ -89,6 +89,7 @@ void UHealthComponent::SetMaxHealth(float NewMaxHealth)
 	}
 
 	MaxHealth = NewMaxHealth;
+	OnHealthChange.Broadcast(CurrentHealth, MaxHealth);
 }
 
 void UHealthComponent::Death()

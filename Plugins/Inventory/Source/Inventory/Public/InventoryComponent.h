@@ -18,8 +18,11 @@ class UItemUseDefinitions;
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOpenedOrClosedInventory);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FInventoryUpdated);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FCloseBag, UInventoryComponent*, DroppedBag);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams
-(FSplittingInitialized, UInventoryComponent*, DraggedFromInventory, int32, DraggedSlotIndex, int32, DroppedSlotIndex);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnWeaponEquipped, FString, WeaponName);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnWeaponUnequipped, FString, WeaponName);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FSplittingInitialized, UInventoryComponent*, DraggedFromInventory,
+																		int32, DraggedSlotIndex,
+																			int32, DroppedSlotIndex);
 
 
 UCLASS(Blueprintable, BlueprintType, meta = (BlueprintSpawnableComponent), ClassGroup = "Inventory")
@@ -107,6 +110,8 @@ public:
 	UFUNCTION(Category = "Inventory Functions")
 	FORCEINLINE void SetBasicSlotAmount(const int32& NewSlotAmount) { BasicSlotAmount = NewSlotAmount; }
 	
+	bool GetItemByName(FString ItemName, FItemStruct& OutItem);
+
 private:
 
 	UFUNCTION(Category = "Inventory Functions")
@@ -158,6 +163,12 @@ public:
 
 	UPROPERTY(BlueprintCallable, Category = "Inventory")
 	FSplittingInitialized OnSplittingInitialized;
+
+	UPROPERTY(BlueprintCallable, Category = "Inventory")
+	FOnWeaponEquipped OnWeaponEquipped;
+
+	UPROPERTY(BlueprintCallable, Category = "Inventory")
+	FOnWeaponUnequipped OnWeaponUnequipped;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Inventory")
 	bool IsInventoryOpen = false;

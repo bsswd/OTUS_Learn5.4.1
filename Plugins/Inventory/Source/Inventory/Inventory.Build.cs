@@ -1,6 +1,7 @@
-﻿// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// OTUS Learn Project. Made by Alex Sinkin (c)
 
 using UnrealBuildTool;
+
 
 public class Inventory : ModuleRules
 {
@@ -9,30 +10,29 @@ public class Inventory : ModuleRules
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
 		PublicIncludePaths.AddRange(
-			new string[] {
-				// ... add public include paths required here ...
+			new string[]
+			{
+				
 			}
 			);
-				
 		
 		PrivateIncludePaths.AddRange(
-			new string[] {
-				// ... add other private include paths required here ...
+			new string[]
+			{
+				
 			}
 			);
-			
 		
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
 				"Core",
+				"CoreUObject",
 				"EnhancedInput",
-				"InputCore",
-				"UMG"
-				// ... add other public dependencies that you statically link with here ...
+				"UMG",
+				"InputCore"
 			}
 			);
-			
 		
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
@@ -41,15 +41,13 @@ public class Inventory : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
-				// ... add private dependencies that you statically link with here ...	
 			}
 			);
-		
 		
 		DynamicallyLoadedModuleNames.AddRange(
 			new string[]
 			{
-				// ... add any modules that your module loads dynamically here ...
+				
 			}
 			);
 	}

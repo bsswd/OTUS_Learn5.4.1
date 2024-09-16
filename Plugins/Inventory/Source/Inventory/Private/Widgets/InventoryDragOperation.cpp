@@ -1,4 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// OTUS Learn Project. Made by Alex Sinkin (c)
 
 #include "Widgets/InventoryDragOperation.h"

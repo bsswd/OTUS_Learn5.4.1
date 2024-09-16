@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "InteractionInterface.h"
 #include "GameFramework/Actor.h"
-#include "OTUS_Learn/MainChahracter/MainCharacter.h"
+#include "OTUS_Learn/MainCharacter/MainCharacter.h"
 #include "PickupItem.generated.h"
 
 

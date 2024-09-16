@@ -3,6 +3,7 @@
 #include "ItemUseDefinitions.h"
 #include "InventoryComponent.h"
 
+
 void UItemUseDefinitions::MasterFunction(
 	UInventoryComponent* OwningInventory, FItemStruct ItemToBeUsed, const int32 ItemArrayIndex)
 {
