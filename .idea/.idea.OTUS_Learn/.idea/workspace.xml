@@ -12,11 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/ActionSystem.uplugin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Resources/Icon128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/ActionSystem.Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/Action.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionSystem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/Action.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionSystem.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/Inputs/IMC_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/Inputs/IMC_Inventory.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/Widgets/InventoryUI/WBP_InventoryWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/Widgets/InventoryUI/WBP_InventoryWidget.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/Inventory/Content/Widgets/InventoryUI/WBP_PlayerInventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Inventory/Content/Widgets/InventoryUI/WBP_PlayerInventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OTUS_Learn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/OTUS_Learn.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3753,6 +3760,8 @@
       <workItem from="1726564146459" duration="628000" />
       <workItem from="1726565276942" duration="457000" />
       <workItem from="1726565797916" duration="3063000" />
+      <workItem from="1727259756932" duration="7532000" />
+      <workItem from="1727267956751" duration="158000" />
     </task>
     <servers />
   </component>

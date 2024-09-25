@@ -54,6 +54,10 @@
 		{
 			"Name": "Weapons",
 			"Enabled": true
+		},
+		{
+			"Name": "ActionSystem",
+			"Enabled": true
 		}
 	]
 }
