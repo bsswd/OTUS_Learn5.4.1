@@ -3,6 +3,9 @@
 
 #include "WeaponWidget.h"
 
+#include "Elements/Common/TypedElementQueryDescription.h"
+#include "Kismet/GameplayStatics.h"
+
 
 void UWeaponWidget::NativeConstruct()
 {

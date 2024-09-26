@@ -36,7 +36,10 @@ public:
 	void RemoveAction(UAction* ActionToRemove);
 
 	UFUNCTION(BlueprintCallable, Category = "Action")
-	void GetActionByName(FName ActionName);
+	void RemoveAllActions();
+
+	UFUNCTION(BlueprintCallable, Category="Action")
+	UAction* GetActionByName(FName ActionName);
 
 	UFUNCTION(BlueprintCallable, Category = "Action")
 	bool StartActionByName(AActor* Instigator, FName ActionName);

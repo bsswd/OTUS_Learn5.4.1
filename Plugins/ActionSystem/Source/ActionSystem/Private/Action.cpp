@@ -26,8 +26,12 @@ void UAction::StopAction_Implementation(AActor* Instigator)
 
 bool UAction::CanStart_Implementation(AActor* Instigator)
 {
-	if (bIsRunning()) return false;
+	if (IsRunning()) return false;
 	UActionComponent* Comp = GetOwningComponent();
+	if (Comp->ActiveTags.HasAny(BlockTags))
+	{
+		return false;
+	}
 	return true;
 }
 

@@ -9,6 +9,6 @@ public class OTUS_Learn : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
-		PrivateDependencyModuleNames.AddRange(new string[] { "Weapons", "Health", "Inventory" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "Weapons", "Health", "Inventory", "ActionSystem" });
 	}
 }

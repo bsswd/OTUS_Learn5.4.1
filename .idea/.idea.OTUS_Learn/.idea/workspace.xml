@@ -12,18 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09c5d3d7-2824-45a1-a228-86f3bcfc0e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/ActionSystem.uplugin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Resources/Icon128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/ActionSystem.Build.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/Action.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionComponent.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionSystem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/Action.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionComponent.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionSystem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Debuffs/Stun.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Debuffs/Stun.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionEffect.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionEffect.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OTUS_Learn/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/MainCharacter/Blueprints/BP_MainCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OTUS_Learn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/OTUS_Learn.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ActionSystem/ActionSystem.uplugin" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ActionSystem/ActionSystem.uplugin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/ActionSystem.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/ActionSystem.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/Action.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/Action.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Private/ActionComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/ActionSystem/Source/ActionSystem/Public/ActionComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/OTUS_Learn.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/OTUS_Learn.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/OTUS_Learn/UI/WeaponWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/OTUS_Learn/UI/WeaponWidget.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3762,6 +3763,10 @@
       <workItem from="1726565797916" duration="3063000" />
       <workItem from="1727259756932" duration="7532000" />
       <workItem from="1727267956751" duration="158000" />
+      <workItem from="1727316893378" duration="3428000" />
+      <workItem from="1727320821090" duration="105000" />
+      <workItem from="1727321007555" duration="77000" />
+      <workItem from="1727321614181" duration="11868000" />
     </task>
     <servers />
   </component>
