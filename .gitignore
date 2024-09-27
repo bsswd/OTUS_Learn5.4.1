@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Huge assets
+Content/Sci_FI_Valley_Village/Textures/*
